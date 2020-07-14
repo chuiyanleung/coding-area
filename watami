@@ -1,0 +1,50 @@
+<style>
+  @import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC:400,500,700|Open+Sans:400,700&display=swap&subset=chinese-traditional');
+
+*,h1,h2,h3,h4,h5,p,button,span,div {
+  font-family: 'Noto Sans TC', 'Open Sans', helvetica, arial, sans-serif;!important
+}
+.wrapper2 {
+    text-align: center;
+  padding: 2em;
+}
+  .shop-info-button {
+  background-color: #994248; 
+    letter-spacing: 0.2em;
+  color: white; 
+  border: none;
+  width: auto;
+  padding: 0.4em 2em;
+}
+
+.shop-info-button:hover {
+  background-color: #c02933;
+  color: white;
+}
+.promotion {
+  text-align: center;
+  font-size: 1em;
+  font-weight: 100;
+  line-height: 2em;
+  letter-spacing: 0.1em;
+
+}
+h5{/*subtitel*/
+   text-align: center; 
+  font-size: 1.1em;
+  font-weight: 500;
+  line-height: 0.4em;
+  letter-spacing: 0.1em;
+  padding-top:1em;
+  }
+  h2{/*menutitle*/
+    font-size: 1.4em;
+  font-weight: bold;
+  color:#c03500;
+  letter-spacing: 3px;
+  padding-top:3em;
+  }
+     @media screen and (max-width: 720px){
+    .rwd-line {display: block; }
+     h5 {line-height: 30px;}}
+  </style>
