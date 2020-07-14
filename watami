@@ -4,7 +4,7 @@
 *,h1,h2,h3,h4,h5,p,button,span,div {
   font-family: 'Noto Sans TC', 'Open Sans', helvetica, arial, sans-serif;!important
 }
-.wrapper2 {
+.wrapper1 {
     text-align: center;
   padding: 2em;
 }
@@ -29,14 +29,14 @@
   letter-spacing: 0.1em;
 
 }
-h5{/*subtitel*/
-   text-align: center; 
-  font-size: 1.1em;
-  font-weight: 500;
-  line-height: 0.4em;
-  letter-spacing: 0.1em;
-  padding-top:1em;
+  h1{/*toptitle*/
+    font-size: 1.6em;
+  font-weight: bold;
+  color:#c03500;
+  letter-spacing: 3px;
+  padding-top:3em;
   }
+
   h2{/*menutitle*/
     font-size: 1.4em;
   font-weight: bold;
@@ -44,7 +44,31 @@ h5{/*subtitel*/
   letter-spacing: 3px;
   padding-top:3em;
   }
+  
+  h3{/*subtitel*/
+   text-align: center; 
+  font-size: 1.1em;
+  font-weight: 500;
+  line-height: 0.4em;
+  letter-spacing: 0.1em;
+  padding-top:1em;
+  }
      @media screen and (max-width: 720px){
     .rwd-line {display: block; }
-     h5 {line-height: 30px;}}
+     h3 {line-height: 30px;}}
   </style>
+
+<div id="takeawaymenu">    <div class="promo">
+      <h2>外賣自取限定優惠</h2>
+      <h3>優惠1: 惠顧外賣便當1客可享免費飲品*1杯；<span>惠顧2客可享2杯，如此類推。</span></h3>
+      <p>*免費飲品項目需於精選外賣菜單內之追加飲品項目內點選</p>
+      <h3><span>優惠2: 外賣自取惠顧滿$200即減$30；</span>惠顧$300即減$50。</h3>
+     <p>
+      不可與其他優惠同時使用 | (優惠1及優惠2可同時使用) | 只限外賣自取使用 | 適用於星期一至日上午11：30後
+       <br>推廣期: 2020年7月15日至8月31日</p><br>
+      <p>想叫外賣？立即致電舖頭查詢啦！</p>
+  </div>
+<div class="wrapper2">
+  <a href="/shop-info-watami" class="shop-info-button">店舖資訊</a>
+
+</div></div>
